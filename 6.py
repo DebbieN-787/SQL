@@ -1,6 +1,6 @@
 import mysql.connector as mc
 
-conn = mc.connect(host='localhost', user='root', password='pokemon123!', database='menagerie')
+conn = mc.connect(host='localhost', user='root', password='Wolf-e-777', database='menagerie')
 cursor = conn.cursor()
 select_query = "SELECT * FROM pet WHERE species ='dog' AND sec='f'"
 cursor.execute(select_query)
